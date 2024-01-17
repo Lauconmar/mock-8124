@@ -1,4 +1,5 @@
 {
+
     "initial": [
       {
         "lang": "de",
@@ -19,8 +20,16 @@
               "de": "Deutsch"
             }
           },
-          "intro": "Wilkommen",
-          "introText": "Wir haben Fragen",
+          "intro1": "Der digitale",
+          "intro2": "Kinderrechte Check",
+          "introText": "Herzlich Willkommen!",
+          "introTextLong": {
+            "a": "Schön, dass Sie mithelfen möchten, Ihre Unterkunft für Kinder und Jugendliche besser zu machen! Ihre ehrliche Meinung zählt! Ihre Antworten bleiben anonym. Die Befragung dauert ca. 15 Minuten, die Teilnahme ist freiwillig. Im Video wird erklärt, wie die Befragung funktioniert:",
+            "c": "Super, dass Du mithelfen möchtest, die Unterkunft für euch Kinder und Jugendliche besser zu machen! Im Video zeige ich dir, wie es geht.",
+            "y": "Super, dass Du mithelfen möchtest, die Unterkunft für euch Jugendliche und Kinder besser zu machen! Das Video zeigt dir, wie es geht.",
+            "p": "Vielen Dank, dass Sie sich die Zeit nehmen, um an der Befragung teilzunehmen! Ihre Antworten können dazu beitragen, Stärken und Schwächen zu identifizieren und Verbesserungen im Bereich Kinderrechte anzustoßen. Die Befragung ist freiwillig und dauert ca. 20 Minuten. Ihre Antworten bleiben anonym und lassen keinerlei Rückschlüsse auf Sie zu.",
+            "s": "Vielen Dank, dass Sie sich die Zeit nehmen, um an der Befragung teilzunehmen! Ihre Antworten können dazu beitragen, Stärken und Schwächen zu identifizieren und Verbesserungen im Bereich Kinderrechte anzustoßen. Die Befragung ist freiwillig und dauert ca. 20 Minuten. Ihre Antworten bleiben anonym und lassen keinerlei Rückschlüsse auf Sie zu."
+          },
           "form": "Fragebogen",
           "en": "englisch",
           "de": "deutsch",
@@ -53,8 +62,16 @@
               "child": "7 to 11"
             }
           },
-          "intro": "Welcome",
-          "introText": "Here are some questions",
+          "intro1": "The digital",
+          "intro2": "children's rights check",
+          "introText": "Welcome!",
+          "introTextLong": {
+            "a": "Thank you for wanting to help make your accommodation better for children and young people! Your honest opinion counts! Your answers will remain anonymous. The survey takes about 15 minutes and participation is voluntary. The video explains how the survey works:",
+            "c": "It's great that you want to help make the accommodation better for you children and young people! I'll show you how to do it in the video.",
+            "y": "It's great that you want to help make the accommodation better for you young people and children! The video shows you how to do it",
+            "p": "Thank you for taking the time to take part in the survey! Your answers can help to identify strengths and weaknesses and initiate improvements in the area of children's rights. The survey is voluntary and takes about 20 minutes. Your answers will remain anonymous and will not allow any conclusions to be drawn about you.",
+            "s": "Thank you for taking the time to take part in the survey! Your answers can help to identify strengths and weaknesses and initiate improvements in the area of children's rights. The survey is voluntary and takes about 20 minutes. Your answers will remain anonymous and will not allow any conclusions to be drawn about you."
+          },
           "form": "form",
           "en": "english",
           "de": "german",
@@ -1561,4 +1578,4 @@
         ]
       }
     ]
-  }
+}
