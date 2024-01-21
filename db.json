@@ -28,7 +28,7 @@
             "c": "Super, dass Du mithelfen möchtest, die Unterkunft für euch Kinder und Jugendliche besser zu machen! \n\n Im Video zeige ich dir, wie es geht.",
             "y": "Super, dass Du mithelfen möchtest, die Unterkunft für euch Jugendliche und Kinder besser zu machen! \n\n Das Video zeigt dir, wie es geht.",
             "p": "Vielen Dank, dass Sie sich die Zeit nehmen, um an der Befragung teilzunehmen! \n\n Ihre Antworten können dazu beitragen, Stärken und Schwächen zu identifizieren und Verbesserungen im Bereich Kinderrechte anzustoßen. \n\n Die Befragung ist freiwillig und dauert ca. 20 Minuten. Ihre Antworten bleiben anonym und lassen keinerlei Rückschlüsse auf Sie zu.",
-            "s": "Blaa. Vielen Dank, dass Sie sich die Zeit nehmen, um an der Befragung teilzunehmen! \n\n Ihre Antworten können dazu beitragen, Stärken und Schwächen zu identifizieren und Verbesserungen im Bereich Kinderrechte anzustoßen. \n\n Die Befragung ist freiwillig und dauert ca. 20 Minuten. Ihre Antworten bleiben anonym und lassen keinerlei Rückschlüsse auf Sie zu."
+            "s": "Vielen Dank, dass Sie sich die Zeit nehmen, um an der Befragung teilzunehmen! \n\n Ihre Antworten können dazu beitragen, Stärken und Schwächen zu identifizieren und Verbesserungen im Bereich Kinderrechte anzustoßen. \n\n Die Befragung ist freiwillig und dauert ca. 20 Minuten. Ihre Antworten bleiben anonym und lassen keinerlei Rückschlüsse auf Sie zu."
           },
           "outroText": {
             "a": "Herzlichen Dank für Ihre Unterstützung!",
@@ -1006,7 +1006,7 @@
             "id": 2
           },
           {
-            "question": "1 Wie sicher fühlen Sie sich tagsüber in der Unterkunft?",
+            "question": "Wie sicher fühlen Sie sich tagsüber in der Unterkunft?",
             "step": "protection",
             "qtype": "q5",
             "options": [],
@@ -1214,7 +1214,7 @@
             "question": "Ist die Nutzung kostenlos? ",
             "step": "education",
             "qtype": "q2",
-            "conditional": ["3-no"],
+            "conditional": ["24-yes"],
             "options": [],
             "id": 25
           },
