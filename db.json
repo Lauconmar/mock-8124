@@ -114,1496 +114,1507 @@
       }
     ],
     "questionaire": [
-      {
-        "lang": "de",
-        "type": "s",
-        "questions": [
-          {
-            "question": "In welcher Funktion sind Sie in der Unterkunft tätig? Wichtig: Diese Frage wird nur für statistische Zwecke ausgewertet. Es ist kein Rückschluss auf Ihre Person möglich!",
-            "step": "warm-up",
-            "qtype": "q1",
-            "options": [
+        {
+          "lang": "de",
+          "type": "s",
+          "questions": [
+            {
+              "question": "In welcher Funktion sind Sie in der Unterkunft tätig? Wichtig: Diese Frage wird nur für statistische Zwecke ausgewertet. Es ist kein Rückschluss auf Ihre Person möglich!",
+              "step": "warm-up",
+              "qtype": "q1",
+              "options": [
+                {
+                  "text": "Sicherheitspersonal",
+                  "id": 0
+                },
+                {
+                  "text": "Facility Management",
+                  "id": 1
+                },
+                {
+                  "text": "Hausmeisterservice",
+                  "id": 2
+                },
+                {
+                  "text": "Sonstiges",
+                  "id": 3
+                }
+              ],
+              "id": 1
+            },
+            {
+              "question": "Wie zufrieden sind Sie insgesamt mit der Arbeit (bezogen auf die Strukturen/ Umstände) in dieser Unterkunft?",
+              "step": "warm-up",
+              "qtype": "q5",
+              "options": [],
+              "id": 2
+            },
+            {
+              "question": "Haben Sie eine Vorstellung davon, wie man Kindeswohlgefährdungen erkennt?",
+              "step": "protection",
+              "qtype": "q3",
+              "options": [],
+              "id": 3
+            },
+            {
+              "question": "Wissen Sie, wem Sie in der Unterkunft einen Verdacht auf Kindeswohlgefährdung melden können?",
+              "step": "protection",
+              "qtype": "q3",
+              "options": [],
+              "id": 4
+            },
+            {
+              "question": "Werden bei Verdacht auf Kindeswohlgefährdung entsprechende Maßnahmen eingeleitet?",
+              "step": "protection",
+              "qtype": "q3",
+              "options": [],
+              "id": 5
+            },
+            {
+              "question": "Wie sicher schätzen Sie die Unterkunft für Kinder und Jugendlichen in Bezug auf verschiedene Formen von Gewalt (köperlich, verbal, emotional etc.) ein?",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 6
+            },
+            {
+              "question": "Für wie sicher halten Sie die Unterkunft für Kinder und Jugendliche tagsüber?",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 7
+            },
+            {
+              "question": "Und für wie sicher halten Sie die Unterkunft für Kinder und Jugendliche bei Dunkelheit?",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 8
+            },
+            {
+              "question": "Können erwachsene Bewohner und Bewohnerinnen mit Ihnen über Fragen oder Problemen zum Thema Sicherheit zu sprechen?",
+              "step": "inclusion",
+              "qtype": "q3",
+              "options": [],
+              "id": 9
+            },
+            {
+              "question": "Können Kinder und Jugendliche mit Ihnen über Fragen oder Probleme zum Thema Sicherheit sprechen?",
+              "step": "inclusion",
+              "qtype": "q3",
+              "options": [],
+              "id": 10
+            },
+            {
+              "question": "Wie sehr haben Sie die Möglichkeit, Wünsche der Bewohner und Bewohnerinnen zum Thema Sicherheit umzusetzen?",
+              "step": "inclusion",
+              "qtype": "q5",
+              "options": [],
+              "id": 11
+            },
+            {
+              "question": "Wie sehr wird auf die Einhaltung der Hausordnung geachtet?",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 12
+            },
+            {
+              "question": "Wie sicher ist die Unterkunft insgesamt baulich (z.B. Steckdosen, ungesicherte Fenstergriffe) für Kinder?",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 13
+            },
+            {
+              "question": "Gibt es in den Fluren/ Treppenhäusern ungesicherte Gefahrenquellen (z.B. lose Fliesen, dunkle Ecken) für Kinder?",
+              "step": "accomodation",
+              "qtype": "q3",
+              "options": [],
+              "id": 14
+            },
+            {
+              "question": "Gibt es in den Gemeinschaftsräumen ungesicherte Gefahrenquellen (z.B. Messer, Scheren) für Kinder?",
+              "step": "accomodation",
+              "qtype": "q3",
+              "options": [],
+              "id": 15
+            },
+            {
+              "question": "Gibt es im Außenbereich ungesicherte Gefahrenquellen (z.B. Baustellen) für Kinder?",
+              "step": "accomodation",
+              "qtype": "q3",
+              "options": [],
+              "id": 16
+            },
+            {
+              "question": "Wie bewerten Sie Beleuchtung in der Unterkunft?",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 17
+            },
+            {
+              "question": "Wie bewerten Sie die Beleuchtung auf dem Außengelände?",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 18
+            },
+            {
+              "question": "Haben Sie schon einmal eine Schulung zum Schutz von Kindern und Jugendlichen erhalten?",
+              "step": "personell",
+              "qtype": "q2",
+              "options": [],
+              "id": 19
+            },
+            {
+              "question": "Und zuletzt: Wenn Sie einmal alle Aspekte insgesamt berücksichtigen: Wie bewerten Sie die Situation in der Unterkunft für Kinder und Jugendliche?",
+              "step": "closing",
+              "qtype": "q5",
+              "options": [],
+              "id": 20
+            }
+          ]
+        },
+        {
+          "lang": "de",
+          "type": "p",
+          "questions": [
+            {
+              "question": "In welcher Funktion sind Sie in der Unterkunft tätig? Wichtig: Diese Frage wird nur für statistische Zwecke ausgewertet. Es ist kein Rückschluss auf Ihre Person möglich!",
+              "step": "warm-up",
+              "qtype": "q1",
+              "options": [
+                {
+                  "text": "Leitung der Einrichtung",
+                  "id": 1
+                },
+                {
+                  "text": "Sozialdienst",
+                  "id": 2
+                },
+                {
+                  "text": "Arbeit mit Kindern (Kinderbetreuung/Schule)",
+                  "id": 3
+                },
+                {
+                  "text": "Ehrenamtskoordination",
+                  "id": 4
+                },
+                {
+                  "text": "Sonstige",
+                  "id": 5
+                }
+              ],
+              "id": 1
+            },
+            {
+              "question": "Wie zufrieden sind Sie insgesamt mit der Arbeit (bezogen auf die Strukturen/ Umstände) in Ihrer Unterkunft?",
+              "step": "warm-up",
+              "qtype": "q5",
+              "options": [],
+              "id": 2
+            },
+            {
+              "intro": "Wir stellen Ihnen nun einige Fragen zum Thema Schutz von Kindern und Jugendlichen.",
+              "question": "Werden Eltern gefragt, ob ihr Kind besondere Bedürfnisse hat?",
+              "step": "protection",
+              "qtype": "q3",
+              "options": [],
+              "id": 3
+            },
+            {
+              "question": "Werden besondere Bedürfnisse der Kinder berücksichtigt?",
+              "qtype": "q3",
+              "step": "protection",
+              "options": [],
+              "id": 4
+            },
+            {
+              "question": "Wie gut kennen Sie die Meldekette für Kindeswohlgefährdungen?",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 5
+            },
+            {
+              "question": "Werden bei Kindeswohlgefährdungen Maßnahmen eingeleitet",
+              "step": "protection",
+              "qtype": "q3",
+              "options": [],
+              "id": 6
+            },
+            {
+              "question": "Gibt es in dieser Unterkunft ein einrichtungsbezogenes Kinderschutzkonzept?",
+              "step": "protection",
+              "qtype": "q3",
+              "options": [],
+              "id": 7
+            },
+            {
+              "question": "Gibt es eine für Kinderschutz verantwortliche Person (Kinderschutzfachkraft)?",
+              "step": "protection",
+              "qtype": "q3",
+              "options": [],
+              "id": 8
+            },
+            {
+              "question": "Gibt es eine Kooperation mit einer insoweit erfahrenen Fachkraft (gemäß § 8 a / b SGB VIII) außerhalb der Unterkunft?",
+              "step": "protection",
+              "qtype": "q3",
+              "options": [],
+              "id": 9
+            },
+            {
+              "question": "Werden Familien nur gemeinsam ohne fremde Personen im Zimmer untergebracht?",
+              "step": "protection",
+              "qtype": "q3",
+              "options": [],
+              "id": 10
+            },
+            {
+              "question": "Betreten Mitarbeitende der Einrichtung nur mit Zustimmung der Bewohner*innen deren Privaträumen?",
+              "step": "protection",
+              "qtype": "q3",
+              "options": [],
+              "id": 11
+            },
+            {
+              "question": "Wie sicher schätzen Sie die Unterkunft für Kinder und Jugendliche in Bezug auf verschiedene Formen von Gewalt (köperlich, verbal, emotional etc.) ein?",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 12
+            },
+            {
+              "question": "Wie sicher schätzen Sie die Unterkunft für erwachsene Bewohner*innen in Bezug auf verschiedene Formen von Gewalt (köperlich, verbal, emotional etc.) ein?",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 13
+            },
+            {
+              "intro": "Es folgen nun einige Fragen zum Thema Gesundheit",
+              "question": "Wie schnell werden Kinder und Jugendliche bei einem dringenden gesundheitlichen Problem behandelt? Innerhalb (von)…",
+              "step": "health",
+              "qtype": "q1",
+              "options": [
+               {
+                  "text": "eines Tages",
+                  "id": 5
+                },
+                {
+                  "text": "2-3 Tagen",
+                  "id": 4
+                },
+                {
+                  "text": "1 Woche",
+                  "id": 3
+                },
+                {
+                  "text": "1-2 Wochen",
+                  "id": 2
+                },
+                {
+                  "text": "2 Wochen oder länger",
+                  "id": 1
+                },
+                {
+                  "text": "Gab (bisher) kein dringendes gesundheitliches Problem",
+                  "id": 0
+                },
+          
+                {
+                  "text": "Kann / Möchte ich nicht beurteilen",
+                  "id": 0
+                }
+           
+              ],
+              "id": 14
+            },
+            {
+              "question": "Gibt es bei Arztbesuchen eine sprachmittelnde Person, die für die Bewohner*innen übersetzt?",
+              "step": "health",
+              "qtype": "q3",
+              "options": [],
+              "id": 15
+            },
+            {
+              "question": "Erhalten Schwangere Unterstützung bei der Familienplanung und in der Schwangerschaft?",
+              "step": "health",
+              "qtype": "q3",
+              "options": [],
+              "id": 16
+            },
+            {
+              "question": "Werden Jugendliche über Empfängnisverhütung und Geschlechtskrankheiten aufgeklärt?",
+              "step": "health",
+              "qtype": "q3",
+              "options": [],
+              "id": 17
+            },
+            {
+              "question": "Können Bewohnerinnen, die sich mit (hoch-)ansteckenden Krankheiten infiziert haben, von den gesunden Bewohnerinnen isoliert und z.B. dezentral untergebracht werden?",
+              "step": "health",
+              "qtype": "q3",
+              "options": [],
+              "id": 18
+            },
+            {
+              "question": "Werden Probleme mit Schädlingen (z.B. Läusen, Bettwanzen, Krätze) schnell, das heißt innerhalb weniger Wochen, behoben? ",
+              "step": "health",
+              "qtype": "q3",
+              "options": [],
+              "id": 19
+            },
+            {
+              "question": "Können Eltern in der Unterkunft selbst Nahrung für ihre Babys und Kinder zubereiten?",
+              "step": "health",
+              "qtype": "q3",
+              "options": [],
+              "id": 20
+            },
+            {
+              "question": "Unter Berücksichtigung der wichtigsten Aspekte wie z.B. Zugang, Verfügbarkeit, Niedrigschwelligkeit: Wie bewerten Sie die körperliche (allgemein-)medizinische Versorgung für erwachsene Bewohner*innen insgesamt?",
+              "step": "health",
+              "qtype": "q5",
+              "options": [],
+              "id": 21
+            },
+            {
+              "question": "Und wie bewerten Sie die körperliche (allgemein-)medizinische Versorgung für Kinder und Jugendliche insgesamt?",
+              "step": "health",
+              "qtype": "q5",
+              "options": [],
+              "id": 22
+            },
+            {
+              "question": "Unter Berücksichtigung der wichtigsten Aspekte wie z.B. Zugang, Verfügbarkeit, Niedrigschwelligkeit: Wie bewerten Sie die psychische Versorgung für erwachsene Bewohner*innen insgesamt?",
+              "step": "health",
+              "qtype": "q5",
+              "options": [],
+              "id": 23
+            },
+            {
+              "question": "Und wie bewerten Sie die psychische Versorgung für Kinder und Jugendliche insgesamt?",
+              "step": "health",
+              "qtype": "q5",
+              "options": [],
+              "id": 24
+            },
+            {
+              "intro": "Der nächste Themenblock behandelt den Bereich Bildung",
+              "question": "Haben Kinder und Jugendliche Zugang zu regulären Bildungsangeboten (Kindergarten, Schule etc.) außerhalb der Unterkunft?",
+              "step": "education",
+              "qtype": "q3",
+              "options": [],
+              "id": 25
+            },
+            {
+              "question": "Wie gut unterstützt die Unterkunft bei der Vorbereitung auf den Übergang und bei der Integration in das reguläre Bildungssystem?",
+              "step": "education",
+              "qtype": "q5",
+              "options": [],
+              "conditional": ["25-yes"],
+              "id": 26
+            },
+            {
+              "question": "Wie gut ist der Zugang für Kinder und Jugendliche zu Bildungsangeboten (Kindergarten, Schule etc.) in der Unterkunft?",
+              "step": "education",
+              "qtype": "q5",
+              "options": [],
+              "id": 27
+            },
+            {
+              "question": "Wie gut ist Zugang für Kinder und Jugendliche zu Informationen und Medien (z.B. über das Internet, eine Bücherei etc.)?",
+              "step": "education",
+              "qtype": "q5",
+              "options": [],
+              "id": 28
+            },
+            {
+              "intro": "Die nächsten Fragen beschäftigen sich mit dem Thema Beteiligung von Kindern und Jugendlichen.",
+              "question": "Wie sehr wird der proaktive Austausch zwischen Mitarbeitenden und Sorgeberechtigten (z.B. Elterncafé, -abend) unterstützt?",
+              "step": "inclusion",
+              "qtype": "q5",
+              "options": [],
+              "id": 29
+            },
+            {
+              "question": "In welchem Umfang bietet die Unterkunft Beteiligungsformate für Kinder (z.B. Kindersprechstunde, Kinderrat) an?",
+              "step": "inclusion",
+              "qtype": "q5",
+              "options": [],
+              "id": 30
+            },
+            {
+              "question": "Wie sehr werden die Meinungen und Wünsche der Kinder und Jugendlichen in Bezug auf (Freizeit-) Aktivitäten berücksichtigt?",
+              "step": "inclusion",
+              "qtype": "q5",
+              "options": [],
+              "id": 31
+            },
+            {
+              "question": "Wie sehr werden die Meinungen und Wünsche der Kinder und Jugendlichen in Bezug auf das Essen berücksichtigt?",
+              "step": "inclusion",
+              "qtype": "q5",
+              "options": [],
+              "id": 32
+            },
+            {
+              "question": "Wie sehr werden die Meinungen und Wünsche der Kinder und Jugendlichen in Bezug auf die Gestaltung der Unterkunft berücksichtigt?",
+              "step": "inclusion",
+              "qtype": "q5",
+              "options": [],
+              "id": 33
+            },
+            {
+              "question": "Gibt es spezielle Ansprechpartner*innen für Kinder und Jugendliche?",
+              "step": "inclusion",
+              "qtype": "q3",
+              "options": [],
+              "id": 34
+            },
+            {
+              "question": "Gibt es ein kindgerechtes Beschwerdeverfahren (z.B. Wunschbaum, Briefkasten)?",
+              "step": "inclusion",
+              "qtype": "q3",
+              "options": [],
+              "id": 35
+            },
+            {
+              "question": "Wie sehr werden die angebotenen Möglichkeiten von den Kindern und Jugendlichen genutzt?",
+              "step": "inclusion",
+              "qtype": "q5",
+              "options": [],
+              "conditional": ["35-yes", "35-neutral"],
+              "id": 36
+            },
+            {
+              "intro": "Wir stellen Ihnen nun einige Fragen zur Lage der Unterkunft",
+              "question": "Wie schnell können medizinische Versorgungseinrichtungen von den Bewohner*innen erreicht werden?",
+              "step": "location",
+              "qtype": "q1",
+              "options": [
+                {
+                  "text": "Unter 60 min",
+                  "id": 1
+                },
+                {
+                  "text": "60-90 min",
+                  "id": 2
+                },
+                {
+                  "text": "mehr als 90 min",
+                  "id": 3
+                },
+                {
+                  "text": "Keine Antwort",
+                  "id": 0
+                }
+              ],
+              "id": 37
+            },
+            {
+              "question": "Wie weit sind Spiel- und Freizeitmöglichkeiten von der Unterkunft entfernt?",
+              "step": "location",
+              "qtype": "q1",
+              "options": [
+           
+                {
+                  "text": "von der Unterkunft entfernt? weniger als 1 km",
+                  "id": 1
+                },
+                {
+                  "text": "1-2 km",
+                  "id": 2
+                },
+                {
+                  "text": "mehr als 2 km",
+                  "id": 3
+                },
+               {
+                  "text": "Keine Antwort",
+                  "id": 0
+                }
+              ],
+              "id": 38
+            },
+            {
+              "question": "Wie schnell können Bildungseinrichtungen (z.B. Schulen, Kindergärten) von der Unterkunft aus erreicht werden?",
+              "step": "location",
+              "qtype": "q1",
+              "options": [
+                {
+                  "text": "unter 45 min",
+                  "id": 1
+                },
+                {
+                  "text": "45-60 min",
+                  "id": 2
+                },
+                {
+                  "text": "mehr als 60 min",
+                  "id": 3
+                },
+                {
+                  "text": "Keine Antwort",
+                  "id": 0
+                }
+              ],
+              "id": 39
+            },
+            {
+              "question": "Wie gut ist die Anbindung an den ÖPNV?",
+              "step": "location",
+              "qtype": "q5",
+              "options": [],
+              "id": 40
+            },
+            {
+              "intro": "Die folgenden Fragen beschäftigen sich mit dem Thema Infrastruktur der Unterkunft.",
+              "question": "Können die Bewohner*innen ihre eigenen Zimmer abschließen?",
+              "step": "accomodation",
+              "qtype": "q3",
+              "options": [],
+              "id": 41
+            },
+            {
+              "question": "Sind die Toiletten der Bewohner*innen abschließbar? ",
+              "step": "accomodation",
+              "qtype": "q3",
+              "options": [],
+              "id": 42
+            },
+            {
+              "question": "Sind die Duschen der Bewohner*innen abschließbar? ",
+              "step": "accomodation",
+              "qtype": "q3",
+              "options": [],
+              "id": 43
+            },
+            {
+              "question": "Gibt es tagsüber genug Ruhezeiten, in denen Kinder sich erholen können?",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 44
+            },
+            {
+              "question": "Ist es nachts ruhig genug, damit Kinder und Jugendlichen schlafen können?",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 45
+            },
+            {
+              "question": "Sind die Schlafräume der Bewohner*innen nachts verdunkelbar?",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 46
+            },
+            {
+              "question": "Wie barrierefrei (z.B. sprachlich, inhaltlich) ist die Hausordnung für die erwachsenen Bewohner*innen?",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 47
+            },
+            {
+              "question": "Wie kindgerecht ist die Hausordnung? ",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 48
+            },
+            {
+              "question": "Wie sicher ist die Unterkunft insgesamt baulich (z.B. Steckdosen, ungesicherte Fenstergriffe) für Kinder?",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 49
+            },
+            {
+              "question": "Werden regelmäßige Wartungen und Instandhaltungen durchgeführt?",
+              "step": "accomodation",
+              "qtype": "q3",
+              "options": [],
+              "id": 50
+            },
+            {
+              "question": "Können Sie regelmäßig Weiterbildungen (z.B. zu den Themen Kinderschutz, PSU) wahrnehmen?",
+              "step": "personell",
+              "qtype": "q3",
+              "options": [],
+              "id": 51
+            },
+            {
+              "question": "Eine letzte Frage: Wenn Sie einmal alle Aspekte insgesamt berücksichtigen: Wie bewerten Sie die Situation in der Unterkunft für Kinder und Jugendliche?",
+              "step": "closing",
+              "qtype": "q5",
+              "options": [],
+              "id": 52
+            }
+          ]
+        },
+        {
+          "lang": "de",
+          "type": "c",
+          "questions": [
+            {
+              "question": "Wie geht es dir, seitdem du hier in dieser Unterkunft lebst?",
+              "step": "warm-up",
+              "qtype": "q5",
+              "options": [],
+              "id": 1
+            },
+            {
+              "question": "Wie sicher fühlst du dich in dem Zimmer, in dem du schläfst?",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 2
+            },
+            {
+              "question": "Und wie sicher fühlst du dich in den Toilettenräumen?",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 3
+            },
+            {
+              "question": "Wie sicher fühlst du dich in den Duschräumen?",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 4
+            },
+            {
+              "question": "Wie sicher fühlst du dich in der Unterkunft tagsüber?",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 5
+            },
+            {
+              "question": "Wie sicher fühlst du dich in der Unterkunft, wenn es draußen dunkel ist?",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 6
+            },
+            {
+              "question": "Wie sicher fühlst du dich mit den anderen Bewohnern und Bewohnerinnen?",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 7
+            },
+            {
+              "question": "Wie sicher fühlst du dich mit den Personen, die hier arbeiten?",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 8
+            },
+            {
+              "question": "Wie geht es dir gesundheitlich?",
+              "step": "health",
+              "qtype": "q5",
+              "options": [],
+              "id": 9
+            },
+            {
+              "question": "Kümmert sich ein Arzt oder eine Ärztin um dich, wenn du krank bist?",
+              "step": "health",
+              "qtype": "q3",
+              "options": [],
+              "id": 10
+            },
+            {
+              "question": "Gibt es in der Unterkunft genug zu essen, so dass du satt wirst?",
+              "step": "health",
+              "qtype": "q3",
+              "options": [],
+              "id": 11
+            },
+            {
+              "question": "Wie gut schmeckt dir das Essen?",
+              "step": "health",
+              "qtype": "q5",
+              "options": [],
+              "id": 12
+            },
+            {
+              "question": "Wie viel Hilfe bekommst du von Mitarbeitenden oder Ehrenamtlichen bei den Hausaufgaben?",
+              "step": "education",
+              "qtype": "q5",
+              "options": [],
+              "id": 13
+            },
+            {
+              "question": "Gibt es in der Unterkunft Computer oder Tablets, die du nutzen kannst?",
+              "step": "education",
+              "qtype": "q3",
+              "options": [],
+              "id": 14
+            },
+            {
+              "question": "Machen die Mitarbeitenden Ausflüge oder Aktivitäten (zum Beispiel Sport oder Basteln) mit dir?",
+              "step": "inclusion",
+              "qtype": "q3",
+              "options": [],
+              "id": 15
+            },
+            {
+              "question": "Wie sehr kannst du deine Freizeit mitbestimmen?",
+              "step": "inclusion",
+              "qtype": "q5",
+              "options": [],
+              "id": 16
+            },
+            {
+              "question": "Wie sehr hören die Mitarbeitenden auf deine Meinung?",
+              "step": "inclusion",
+              "qtype": "q5",
+              "options": [],
+              "id": 17
+            },
+            {
+              "question": "Wie sehr traust du dich, etwas zu sagen, wenn dir etwas nicht gefällt?",
+              "step": "inclusion",
+              "qtype": "q5",
+              "options": [],
+              "id": 18
+            },
+            {
+              "question": "Gibt es Mitarbeitende, die sich besonders um Kinder und Jugendliche kümmern?",
+              "step": "inclusion",
+              "qtype": "q3",
+              "options": [],
+              "id": 19
+            },
+            {
+              "question": "Wie gerne sprichst du mit diesen Mitarbeitenden (über deine Probleme)?",
+              "step": "inclusion",
+              "qtype": "q5",
+              "conditional": ["19-yes"],
+              "options": [],
+              "id": 20
+            },
+            {
+              "question": "Wie einfach können dich deine Freundinnen und Freunde in der Unterkunft besuchen?",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 21
+            },
+            {
+              "question": "Gibt es einen eigenen Raum für Kinder, den du nutzen kannst?",
+              "step": "accomodation",
+              "qtype": "q3",
+              "options": [],
+              "id": 22
+            },
+            {
+              "question": "Wie findest du das Spielzeug in der Unterkunft?",
+              "step": "accomodation",
+              "qtype": "q3",
+              "options": [],
+              "id": 23
+            },
+            {
+              "question": "Kannst du draußen spielen (z.B. auf einem Spielplatz?)",
+              "step": "accomodation",
+              "qtype": "q3",
+              "options": [],
+              "id": 24
+            },
+            {
+              "question": "Wie gut kannst du dich tagsüber ausruhen, wenn du müde bist?",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 25
+            },
+            {
+              "question": "Wie ruhig ist es nachts in der Unterkunft?",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 26
+            },
+            {
+              "question": " Wie sauber ist die Unterkunft?",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 27
+            },
+            {
+              "question": "Wie gut helfen dir die Mitarbeitenden des Sozialdienstes, wenn du Hilfe brauchst?",
+              "step": "personell",
+              "qtype": "q5",
+              "options": [],
+              "id": 28
+            },
+            {
+              "question": "Wie gut hilft dir die Unterkunftsleitung, wenn du Hilfe brauchst?",
+              "step": "personell",
+              "qtype": "q5",
+              "options": [],
+              "id": 29
+            },
+            {
+              "question": "Wie gut hilft dir das SecurityPersonal, wenn du Hilfe brauchst?",
+              "step": "personell",
+              "qtype": "q5",
+              "options": [],
+              "id": 30
+            },
+            {
+              "question": "Wie gut helfen dir die Mitarbeitenden der Kinderbetreuung, wenn du Hilfe brauchst?",
+              "step": "personell",
+              "qtype": "q5",
+              "options": [],
+              "id": 31
+            },
+            {
+              "question": "Wie findest du die Unterkunft gesamt?",
+              "step": "closing",
+              "qtype": "q5",
+              "options": [],
+              "id": 32
+            }
+          ]
+        },
+        {
+          "lang": "de",
+          "type": "a",
+          "questions": [
+            {
+              "question": "Wie geht es Ihrer Familie, seitdem Sie in dieser Unterkunft leben?",
+              "step": "warm-up",
+              "qtype": "q5",
+              "options": [],
+              "id": 1
+            },
+            {
+              "question": "Leben in ihrem Zimmer nur Familienangehörige?",
+              "step": "protection",
+              "qtype": "q3",
+              "options": [],
+              "id": 111
+            },
+            {
+              "question": "Kommen Mitarbeitende nur mit Erlaubnis in Ihr privates Zimmer?",
+              "step": "protection",
+              "qtype": "q3",
+              "options": [],
+              "id": 2
+            },
+            {
+              "question": "Wie sicher fühlen Sie sich tagsüber in der Unterkunft?",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 3
+            },
+            {
+              "question": "Wie sicher fühlen Sie sich bei Dunkelheit in der Unterkunft?",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 4
+            },
+            {
+              "question": "Vertrauen Sie den anderen Bewohnern und Bewohnerinnen im Umgang mit Ihren Kindern?",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 5
+            },
+            {
+              "question": "Wie sehr vertrauen Sie dem Security-Personal im Umgang mit Ihren Kindern?",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 6
+            },
+            {
+              "question": "Wie sehr vertrauen Sie den Mitarbeitenden im Umgang mit Ihren Kindern?",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 7
+            },
+            {
+              "question": "War ihr Kind schon einmal durch andere Bewohner/Bewohnerinnen gefährdet?",
+              "step": "protection",
+              "qtype": "q2",
+              "options": [],
+              "id": 8
+            },
+            {
+              "question": "War Ihr Kind schon einmal durch das Security-Personal gefährdet?",
+              "step": "protection",
+              "qtype": "q2",
+              "options": [],
+              "id": 9
+            },
+            {
+              "question": "War Ihr Kind schon einmal durch Mitarbeitende gefährdet?",
+              "step": "protection",
+              "qtype": "q2",
+              "options": [],
+              "id": 10
+            },
+            {
+              "question": " Können Sie mit Ihrem Kind zu einem Arzt oder einer Ärztin gehen, wenn es ihm körperlich nicht gut geht?",
+              "step": "health",
+              "qtype": "q2",
+              "options": [],
+              "id": 11
+            },
+            {
+              "question": "Bekommen Sie professionelle Hilfe, wenn es ihrem Kind psychisch nicht gut geht?",
+              "step": "health",
+              "qtype": "q2",
+              "options": [],
+              "id": 12
+            },
+            {
+              "question": "Wie schnell wurde ihr Kind bei einem dringenden gesundheitlichen Problem behandelt? Innerhalb (von)…",
+              "step": "health",
+              "qtype": "q1",
+              "options": [
               {
-                "text": "Sonstiges",
-                "id": 0
-              },
-              {
-                "text": "Sicherheitspersonal",
-                "id": 1
-              },
-              {
-                "text": "Facility Management",
-                "id": 2
-              },
-              {
-                "text": "Hausmeisterservice",
-                "id": 3
-              }
-            ],
-            "id": 1
-          },
-          {
-            "question": "Wie zufrieden sind Sie insgesamt mit der Arbeit (bezogen auf die Strukturen/ Umstände) in dieser Unterkunft?",
-            "step": "warm-up",
-            "qtype": "q5",
-            "options": [],
-            "id": 2
-          },
-          {
-            "question": "Haben Sie eine Vorstellung davon, wie man Kindeswohlgefährdungen erkennt?",
-            "step": "protection",
-            "qtype": "q3",
-            "options": [],
-            "id": 3
-          },
-          {
-            "question": "Wissen Sie, wem Sie in der Unterkunft einen Verdacht auf Kindeswohlgefährdung melden können?",
-            "step": "protection",
-            "qtype": "q3",
-            "options": [],
-            "id": 4
-          },
-          {
-            "question": "Werden bei Verdacht auf Kindeswohlgefährdung entsprechende Maßnahmen eingeleitet?",
-            "step": "protection",
-            "qtype": "q3",
-            "options": [],
-            "id": 5
-          },
-          {
-            "question": "Wie sicher schätzen Sie die Unterkunft für Kinder und Jugendlichen in Bezug auf verschiedene Formen von Gewalt (köperlich, verbal, emotional etc.) ein?",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 6
-          },
-          {
-            "question": "Für wie sicher halten Sie die Unterkunft für Kinder und Jugendliche tagsüber?",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 7
-          },
-          {
-            "question": "Und für wie sicher halten Sie die Unterkunft für Kinder und Jugendliche bei Dunkelheit?",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 8
-          },
-          {
-            "question": "Können erwachsene Bewohner und Bewohnerinnen mit Ihnen über Fragen oder Problemen zum Thema Sicherheit zu sprechen?",
-            "step": "inclusion",
-            "qtype": "q3",
-            "options": [],
-            "id": 9
-          },
-          {
-            "question": "Können Kinder und Jugendliche mit Ihnen über Fragen oder Probleme zum Thema Sicherheit sprechen?",
-            "step": "inclusion",
-            "qtype": "q3",
-            "options": [],
-            "id": 10
-          },
-          {
-            "question": "Wie sehr haben Sie die Möglichkeit, Wünsche der Bewohner und Bewohnerinnen zum Thema Sicherheit umzusetzen?",
-            "step": "inclusion",
-            "qtype": "q5",
-            "options": [],
-            "id": 11
-          },
-          {
-            "question": "Wie sehr wird auf die Einhaltung der Hausordnung geachtet?",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 12
-          },
-          {
-            "question": "Wie sicher ist die Unterkunft insgesamt baulich (z.B. Steckdosen, ungesicherte Fenstergriffe) für Kinder?",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 13
-          },
-          {
-            "question": "Gibt es in den Fluren/ Treppenhäusern ungesicherte Gefahrenquellen (z.B. lose Fliesen, dunkle Ecken) für Kinder?",
-            "step": "accomodation",
-            "qtype": "q3",
-            "options": [],
-            "id": 14
-          },
-          {
-            "question": "Gibt es in den Gemeinschaftsräumen ungesicherte Gefahrenquellen (z.B. Messer, Scheren) für Kinder?",
-            "step": "accomodation",
-            "qtype": "q3",
-            "options": [],
-            "id": 15
-          },
-          {
-            "question": "Gibt es im Außenbereich ungesicherte Gefahrenquellen (z.B. Baustellen) für Kinder?",
-            "step": "accomodation",
-            "qtype": "q3",
-            "options": [],
-            "id": 16
-          },
-          {
-            "question": "Wie bewerten Sie Beleuchtung in der Unterkunft? ",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 17
-          },
-          {
-            "question": "Wie bewerten Sie die Beleuchtung auf dem Außengelände?",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 18
-          },
-          {
-            "question": "Haben Sie schon einmal eine Schulung zum Schutz von Kindern und Jugendlichen erhalten?",
-            "step": "personell",
-            "qtype": "q2",
-            "options": [],
-            "id": 19
-          },
-          {
-            "question": "Und zuletzt: Wenn Sie einmal alle Aspekte insgesamt berücksichtigen: Wie bewerten Sie die Situation in der Unterkunft für Kinder und Jugendliche?",
-            "step": "closing",
-            "qtype": "q5",
-            "options": [],
-            "id": 20
-          }
-        ]
-      },
-      {
-        "lang": "de",
-        "type": "p",
-        "questions": [
-          {
-            "question": "In welcher Funktion sind Sie in der Unterkunft tätig? Wichtig: Diese Frage wird nur für statistische Zwecke ausgewertet. Es ist kein Rückschluss auf Ihre Person möglich!",
-            "step": "warm-up",
-            "qtype": "q1",
-            "options": [
-              {
-                "text": "Leitung",
-                "id": 1
-              },
-              {
-                "text": "Sozialdienst",
-                "id": 2
-              },
-              {
-                "text": "Arbeit mit Kindern, ( zB Kinderbetreuung, Schule))",
-                "id": 3
-              },
-              {
-                "text": "Ehrenamtskoordination",
-                "id": 4
-              },
-              {
-                "text": "Sonstige",
-                "id": 5
-              }
-            ],
-            "id": 1
-          },
-          {
-            "question": "Wie zufrieden sind Sie insgesamt mit der Arbeit (bezogen auf die Strukturen/ Umstände) in Ihrer Unterkunft?",
-            "step": "warm-up",
-            "qtype": "q5",
-            "options": [],
-            "id": 2
-          },
-          {
-            "intro": "Wir stellen Ihnen nun einige Fragen zum Thema Schutz von Kindern und Jugendlichen.",
-            "question": "Werden Eltern gefragt, ob ihr Kind besondere Bedürfnisse hat?",
-            "step": "protection",
-            "qtype": "q3",
-            "options": [],
-            "id": 3
-          },
-          {
-            "question": "Werden besondere Bedürfnisse der Kinder berücksichtigt?",
-            "qtype": "q3",
-            "step": "protection",
-            "options": [],
-            "id": 4
-          },
-          {
-            "question": "Wie gut kennen Sie die Meldekette für Kindeswohlgefährdungen?",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 5
-          },
-          {
-            "question": "Werden bei Kindeswohlgefährdungen Maßnahmen eingeleitet",
-            "step": "protection",
-            "qtype": "q3",
-            "options": [],
-            "id": 6
-          },
-          {
-            "question": "Gibt es in dieser Unterkunft ein einrichtungsbezogenes Kinderschutzkonzept?",
-            "step": "protection",
-            "qtype": "q3",
-            "options": [],
-            "id": 7
-          },
-          {
-            "question": "Gibt es eine für Kinderschutz verantwortliche Person (Kinderschutzfachkraft)?",
-            "step": "protection",
-            "qtype": "q3",
-            "options": [],
-            "id": 8
-          },
-          {
-            "question": "Gibt es eine Kooperation mit einer insoweit erfahrenen Fachkraft (gemäß § 8 a / b SGB VIII) außerhalb der Unterkunft?",
-            "step": "protection",
-            "qtype": "q3",
-            "options": [],
-            "id": 9
-          },
-          {
-            "question": " Werden Familien nur gemeinsam ohne fremde Personen im Zimmer untergebracht?",
-            "step": "protection",
-            "qtype": "q3",
-            "options": [],
-            "id": 10
-          },
-          {
-            "question": "Betreten Mitarbeitende der Einrichtung nur mit Zustimmung der Bewohner*innen deren Privaträumen?",
-            "step": "protection",
-            "qtype": "q3",
-            "options": [],
-            "id": 11
-          },
-          {
-            "question": "Wie sicher schätzen Sie die Unterkunft für Kinder und Jugendliche in Bezug auf verschiedene Formen von Gewalt (köperlich, verbal, emotional etc.) ein?",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 12
-          },
-          {
-            "question": "Wie sicher schätzen Sie die Unterkunft für erwachsene Bewohner*innen in Bezug auf verschiedene Formen von Gewalt (köperlich, verbal, emotional etc.) ein?",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 13
-          },
-          {
-            "intro": "Es folgen nun einige Fragen zum Thema Gesundheit ",
-            "question": "Wie schnell werden Kinder und Jugendliche bei einem dringenden gesundheitlichen Problem behandelt? Innerhalb (von)…",
-            "step": "health",
-            "qtype": "q1",
-            "options": [
-              {
-                "text": "Kann / Möchte ich nicht beurteilen",
-                "id": 0
-              },
-              {
-                "text": "Gab (bisher) kein dringendes gesundheitliches Problem",
-                "id": 1
-              },
-              {
-                "text": "2 Wochen oder länger",
-                "id": 2
-              },
-              {
-                "text": "1-2 Wochen",
-                "id": 3
-              },
-              {
-                "text": "1 Woche",
-                "id": 4
-              },
-              {
-                "text": "2-3 Tagen",
-                "id": 5
-              },
-              {
-                "text": "eines Tages",
-                "id": 6
-              }
-            ],
-            "id": 14
-          },
-          {
-            "question": "Gibt es bei Arztbesuchen eine sprachmittelnde Person, die für die Bewohner*innen übersetzt?",
-            "step": "health",
-            "qtype": "q2",
-            "options": [],
-            "id": 15
-          },
-          {
-            "question": "Erhalten Schwangere Unterstützung bei der Familienplanung und in der Schwangerschaft?",
-            "step": "health",
-            "qtype": "q2",
-            "options": [],
-            "id": 16
-          },
-          {
-            "question": "Werden Jugendliche über Empfängnisverhütung und Geschlechtskrankheiten aufgeklärt?",
-            "step": "health",
-            "qtype": "q2",
-            "options": [],
-            "id": 17
-          },
-          {
-            "question": "Können Bewohnerinnen, die sich mit (hoch-)ansteckenden Krankheiten infiziert haben, von den gesunden Bewohnerinnen isoliert und z.B. dezentral untergebracht werden?",
-            "step": "health",
-            "qtype": "q2",
-            "options": [],
-            "id": 18
-          },
-          {
-            "question": "Werden Probleme mit Schädlingen (z.B. Läusen, Bettwanzen, Krätze) schnell, das heißt innerhalb weniger Wochen, behoben? ",
-            "step": "health",
-            "qtype": "q2",
-            "options": [],
-            "id": 19
-          },
-          {
-            "question": "Können Eltern in der Unterkunft selbst Nahrung für ihre Babys und Kinder zubereiten?",
-            "step": "health",
-            "qtype": "q3",
-            "options": [],
-            "id": 20
-          },
-          {
-            "question": "Unter Berücksichtigung der wichtigsten Aspekte wie z.B. Zugang, Verfügbarkeit, Niedrigschwelligkeit: Wie bewerten Sie die körperliche (allgemein-)medizinische Versorgung für erwachsene Bewohner*innen insgesamt?",
-            "step": "health",
-            "qtype": "q5",
-            "options": [],
-            "id": 21
-          },
-          {
-            "question": "Und wie bewerten Sie die körperliche (allgemein-)medizinische Versorgung für Kinder und Jugendliche insgesamt?",
-            "step": "health",
-            "qtype": "q5",
-            "options": [],
-            "id": 22
-          },
-          {
-            "question": "Unter Berücksichtigung der wichtigsten Aspekte wie z.B. Zugang, Verfügbarkeit, Niedrigschwelligkeit: Wie bewerten Sie die psychische Versorgung für erwachsene Bewohner*innen insgesamt?",
-            "step": "health",
-            "qtype": "q5",
-            "options": [],
-            "id": 23
-          },
-          {
-            "question": "Und wie bewerten Sie die psychische Versorgung für Kinder und Jugendliche insgesamt?",
-            "step": "health",
-            "qtype": "q5",
-            "options": [],
-            "id": 24
-          },
-          {
-            "intro": "Der nächste Themenblock behandelt den Bereich Bildung",
-            "question": "Haben Kinder und Jugendliche Zugang zu regulären Bildungsangeboten (Kindergarten, Schule etc.) außerhalb der Unterkunft?",
-            "step": "education",
-            "qtype": "q3",
-            "options": [],
-            "id": 25
-          },
-          {
-            "question": "Wie gut unterstützt die Unterkunft bei der Vorbereitung auf den Übergang und bei der Integration in das reguläre Bildungssystem?",
-            "step": "education",
-            "qtype": "q5",
-            "options": [],
-            "conditional": ["25-yes"],
-            "id": 26
-          },
-          {
-            "question": "2 Wie gut ist der Zugang für Kinder und Jugendliche zu Bildungsangeboten (Kindergarten, Schule etc.) in der Unterkunft?",
-            "step": "education",
-            "qtype": "q5",
-            "options": [],
-            "id": 27
-          },
-          {
-            "question": "Wie gut ist Zugang für Kinder und Jugendliche zu Informationen und Medien (z.B. über das Internet, eine Bücherei etc.)?",
-            "step": "education",
-            "qtype": "q5",
-            "options": [],
-            "id": 28
-          },
-          {
-            "intro": "Die nächsten Fragen beschäftigen sich mit dem Thema Beteiligung von Kindern und Jugendlichen.",
-            "question": "Wie sehr wird der proaktive Austausch zwischen Mitarbeitenden und Sorgeberechtigten (z.B. Elterncafé, -abend) unterstützt?",
-            "step": "inclusion",
-            "qtype": "q5",
-            "options": [],
-            "id": 29
-          },
-          {
-            "question": "In welchem Umfang bietet die Unterkunft Beteiligungsformate für Kinder (z.B. Kindersprechstunde, Kinderrat) an?",
-            "step": "inclusion",
-            "qtype": "q5",
-            "options": [],
-            "id": 30
-          },
-          {
-            "question": "Wie sehr werden die Meinungen und Wünsche der Kinder und Jugendlichen in Bezug auf (Freizeit-) Aktivitäten berücksichtigt?",
-            "step": "inclusion",
-            "qtype": "q5",
-            "options": [],
-            "id": 31
-          },
-          {
-            "question": "Wie sehr werden die Meinungen und Wünsche der Kinder und Jugendlichen in Bezug auf das Essen berücksichtigt?",
-            "step": "inclusion",
-            "qtype": "q5",
-            "options": [],
-            "id": 32
-          },
-          {
-            "question": "Wie sehr werden die Meinungen und Wünsche der Kinder und Jugendlichen in Bezug auf die Gestaltung der Unterkunft berücksichtigt?",
-            "step": "inclusion",
-            "qtype": "q5",
-            "options": [],
-            "id": 33
-          },
-          {
-            "question": "Gibt es spezielle Ansprechpartner*innen für Kinder und Jugendliche?",
-            "step": "inclusion",
-            "qtype": "q3",
-            "options": [],
-            "id": 34
-          },
-          {
-            "question": "Gibt es ein kindgerechtes Beschwerdeverfahren (z.B. Wunschbaum, Briefkasten)?",
-            "step": "inclusion",
-            "qtype": "q3",
-            "options": [],
-            "id": 35
-          },
-          {
-            "question": "Wie sehr werden die angebotenen Möglichkeiten von den Kindern und Jugendlichen genutzt?",
-            "step": "inclusion",
-            "qtype": "q5",
-            "options": [],
-            "conditional": ["34-yes", "34-neutral"],
-            "id": 36
-          },
-          {
-            "intro": "Wir stellen Ihnen nun einige Fragen zur Lage der Unterkunft",
-            "question": "Wie schnell können medizinische Versorgungseinrichtungen von den Bewohner*innen erreicht werden?",
-            "step": "location",
-            "qtype": "q1",
-            "options": [
-              {
-                "text": "Keine Antwort",
-                "id": 0
-              },
-              {
-                "text": "Unter 60 min",
-                "id": 1
-              },
-              {
-                "text": "60-90 min",
-                "id": 2
-              },
-              {
-                "text": "mehr als 90 min",
-                "id": 3
-              }
-            ],
-            "id": 37
-          },
-          {
-            "question": "Wie weit sind Spiel- und Freizeitmöglichkeiten von der Unterkunft entfernt?",
-            "step": "location",
-            "qtype": "q1",
-            "options": [
-              {
-                "text": "Keine Antwort",
-                "id": 0
-              },
-              {
-                "text": "von der Unterkunft entfernt? weniger als 1 km/",
-                "id": 1
-              },
-              {
-                "text": "1- 2 km",
-                "id": 2
-              },
-              {
-                "text": "mehr als 2 km",
-                "id": 3
-              }
-            ],
-            "id": 38
-          },
-          {
-            "question": "Wie schnell können Bildungseinrichtungen (z.B. Schulen, Kindergärten) von der Unterkunft aus erreicht werden?",
-            "step": "location",
-            "qtype": "q1",
-            "options": [
-              {
-                "text": "Keine Antwort",
-                "id": 0
-              },
-              {
-                "text": "unter 45 min/",
-                "id": 1
-              },
-              {
-                "text": "45-60 min/",
-                "id": 2
-              },
-              {
-                "text": "mehr als 60 min/",
-                "id": 3
-              }
-            ],
-            "id": 39
-          },
-          {
-            "question": "Wie gut ist die Anbindung an den ÖPNV?",
-            "step": "location",
-            "qtype": "q5",
-            "options": [],
-            "id": 40
-          },
-          {
-            "intro": "Die folgenden Fragen beschäftigen sich mit dem Thema Infrastruktur der Unterkunft.",
-            "question": "Können die Bewohner*innen ihre eigenen Zimmer abschließen?",
-            "step": "accomodation",
-            "qtype": "q3",
-            "options": [],
-            "id": 41
-          },
-          {
-            "question": "Sind die Toiletten der Bewohner*innen abschließbar? ",
-            "step": "accomodation",
-            "qtype": "q3",
-            "options": [],
-            "id": 42
-          },
-          {
-            "question": "Sind die Duschen der Bewohner*innen abschließbar? ",
-            "step": "accomodation",
-            "qtype": "q3",
-            "options": [],
-            "id": 43
-          },
-          {
-            "question": "Gibt es tagsüber genug Ruhezeiten, in denen Kinder sich erholen können?",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 44
-          },
-          {
-            "question": "Ist es nachts ruhig genug, damit Kinder und Jugendlichen schlafen können?",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 45
-          },
-          {
-            "question": "Sind die Schlafräume der Bewohner*innen nachts verdunkelbar?",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 46
-          },
-          {
-            "question": "Wie barrierefrei (z.B. sprachlich, inhaltlich) ist die Hausordnung für die erwachsenen Bewohner*innen?",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 47
-          },
-          {
-            "question": "Wie kindgerecht ist die Hausordnung? ",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 48
-          },
-          {
-            "question": "Wie sicher ist die Unterkunft insgesamt baulich (z.B. Steckdosen, ungesicherte Fenstergriffe) für Kinder?",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 49
-          },
-          {
-            "question": "Werden regelmäßige Wartungen und Instandhaltungen durchgeführt?",
-            "step": "accomodation",
-            "qtype": "q3",
-            "options": [],
-            "id": 50
-          },
-          {
-            "question": "Können Sie regelmäßig Weiterbildungen (z.B. zu den Themen Kinderschutz, PSU) wahrnehmen?",
-            "step": "personell",
-            "qtype": "q3",
-            "options": [],
-            "id": 51
-          },
-          {
-            "question": "Eine letzte Frage: Wenn Sie einmal alle Aspekte insgesamt berücksichtigen: Wie bewerten Sie die Situation in der Unterkunft für Kinder und Jugendliche?",
-            "step": "closing",
-            "qtype": "q5",
-            "options": [],
-            "id": 52
-          }
-        ]
-      },
-      {
-        "lang": "de",
-        "type": "c",
-        "questions": [
-          {
-            "question": "Wie geht es dir, seitdem du hier in dieser Unterkunft lebst?",
-            "step": "warm-up",
-            "qtype": "q5",
-            "options": [],
-            "id": 1
-          },
-          {
-            "question": "Wie sicher fühlst du dich in dem Zimmer, in dem du schläfst?",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 2
-          },
-          {
-            "question": "Und wie sicher fühlst du dich in den Toilettenräume n?",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 3
-          },
-          {
-            "question": "Wie sicher fühlst du dich in den Duschräumen?",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 4
-          },
-          {
-            "question": "Wie sicher fühlst du dich in der Unterkunft tagsüber?",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 5
-          },
-          {
-            "question": "Wie sicher fühlst du dich in der Unterkunft, wenn es draußen dunkel ist?",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 6
-          },
-          {
-            "question": "Wie sicher fühlst du dich mit den anderen Bewohnern und Bewohnerinnen?",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 7
-          },
-          {
-            "question": "Wie sicher fühlst du dich mit den Personen, die hier arbeiten?",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 8
-          },
-          {
-            "question": "Wie geht es dir gesundheitlich?",
-            "step": "health",
-            "qtype": "q5",
-            "options": [],
-            "id": 9
-          },
-          {
-            "question": "Kümmert sich ein Arzt oder eine Ärztin um dich, wenn du krank bist?",
-            "step": "health",
-            "qtype": "q3",
-            "options": [],
-            "id": 10
-          },
-          {
-            "question": "Gibt es in der Unterkunft genug zu essen, so dass du satt wirst?",
-            "step": "health",
-            "qtype": "q3",
-            "options": [],
-            "id": 11
-          },
-          {
-            "question": "Wie gut schmeckt dir das Essen?",
-            "step": "health",
-            "qtype": "q5",
-            "options": [],
-            "id": 12
-          },
-          {
-            "question": "Wie viel Hilfe bekommst du von Mitarbeitenden oder Ehrenamtlichen bei den Hausaufgaben?",
-            "step": "education",
-            "qtype": "q5",
-            "options": [],
-            "id": 13
-          },
-          {
-            "question": "Gibt es in der Unterkunft Computer oder Tablets, die du nutzen kannst?",
-            "step": "education",
-            "qtype": "q3",
-            "options": [],
-            "id": 14
-          },
-          {
-            "question": "Machen die Mitarbeitenden Ausflüge oder Aktivitäten (zum Beispiel Sport oder Basteln) mit dir?",
-            "step": "inclusion",
-            "qtype": "q3",
-            "options": [],
-            "id": 15
-          },
-          {
-            "question": "Wie sehr kannst du deine Freizeit mitbestimmen?",
-            "step": "inclusion",
-            "qtype": "q5",
-            "options": [],
-            "id": 16
-          },
-          {
-            "question": "Wie sehr hören die Mitarbeitenden auf deine Meinung?",
-            "step": "inclusion",
-            "qtype": "q5",
-            "options": [],
-            "id": 17
-          },
-          {
-            "question": "Wie sehr traust du dich, etwas zu sagen, wenn dir etwas nicht gefällt?",
-            "step": "inclusion",
-            "qtype": "q5",
-            "options": [],
-            "id": 18
-          },
-          {
-            "question": "Gibt es Mitarbeitende, die sich besonders um Kinder und Jugendliche kümmern?",
-            "step": "inclusion",
-            "qtype": "q3",
-            "options": [],
-            "id": 19
-          },
-          {
-            "question": "Wie gerne sprichst du mit diesen Mitarbeitenden (über deine Probleme)?",
-            "step": "inclusion",
-            "qtype": "q5",
-            "conditional": ["19-yes"],
-            "options": [],
-            "id": 20
-          },
-          {
-            "question": "Wie einfach können dich deine Freundinnen und Freunde in der Unterkunft besuchen?",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 21
-          },
-          {
-            "question": "Gibt es einen eigenen Raum für Kinder, den du nutzen kannst?",
-            "step": "accomodation",
-            "qtype": "q3",
-            "options": [],
-            "id": 22
-          },
-          {
-            "question": "Wie findest du das Spielzeug in der Unterkunft?",
-            "step": "accomodation",
-            "qtype": "q3",
-            "options": [],
-            "id": 23
-          },
-          {
-            "question": "Kannst du draußen spielen (z.B. auf einem Spielplatz?)",
-            "step": "accomodation",
-            "qtype": "q3",
-            "options": [],
-            "id": 24
-          },
-          {
-            "question": "Wie gut kannst du dich tagsüber ausruhen, wenn du müde bist?",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 25
-          },
-          {
-            "question": "Wie ruhig ist es nachts in der Unterkunft?",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 26
-          },
-          {
-            "question": " Wie sauber ist die Unterkunft?",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 27
-          },
-          {
-            "question": "Wie gut helfen dir die Mitarbeitenden des Sozialdienstes, wenn du Hilfe brauchst?",
-            "step": "personell",
-            "qtype": "q5",
-            "options": [],
-            "id": 28
-          },
-          {
-            "question": "Wie gut hilft dir die Unterkunftsleitun g, wenn du Hilfe brauchst?",
-            "step": "personell",
-            "qtype": "q5",
-            "options": [],
-            "id": 29
-          },
-          {
-            "question": "Wie gut hilft dir das SecurityPersonal, wenn du Hilfe brauchst?",
-            "step": "personell",
-            "qtype": "q5",
-            "options": [],
-            "id": 30
-          },
-          {
-            "question": "Wie gut helfen dir die Mitarbeitenden der Kinderbetreuung, wenn du Hilfe brauchst?",
-            "step": "personell",
-            "qtype": "q5",
-            "options": [],
-            "id": 31
-          },
-          {
-            "question": "Wie findest du die Unterkunft gesamt?",
-            "step": "personell",
-            "qtype": "q5",
-            "options": [],
-            "id": 32
-          }
-        ]
-      },
-      {
-        "lang": "de",
-        "type": "a",
-        "questions": [
-          {
-            "question": "Wie geht es Ihrer Familie, seitdem Sie in dieser Unterkunft leben?",
-            "step": "warm-up",
-            "qtype": "q5",
-            "options": [],
-            "id": 1
-          },
-          {
-            "question": "Kommen Mitarbeitende nur mit Erlaubnis in Ihr privates Zimmer?",
-            "step": "protection",
-            "qtype": "q3",
-            "options": [],
-            "id": 2
-          },
-          {
-            "question": "Wie sicher fühlen Sie sich tagsüber in der Unterkunft?",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 3
-          },
-          {
-            "question": "Wie sicher fühlen Sie sich bei Dunkelheit in der Unterkunft?",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 4
-          },
-          {
-            "question": "Vertrauen Sie den anderen Bewohnern und Bewohnerinnen im Umgang mit Ihren Kindern?",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 5
-          },
-          {
-            "question": "Wie sehr vertrauen Sie dem Security-Personal im Umgang mit Ihren Kindern?",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 6
-          },
-          {
-            "question": "Wie sehr vertrauen Sie den Mitarbeitenden im Umgang mit Ihren Kindern?",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 7
-          },
-          {
-            "question": "War ihr Kind schon einmal durch andere Bewohner/Bewohnerinnen gefährdet?",
-            "step": "protection",
-            "qtype": "q2",
-            "options": [],
-            "id": 8
-          },
-          {
-            "question": "War Ihr Kind schon einmal durch das Security-Personal gefährdet?",
-            "step": "protection",
-            "qtype": "q2",
-            "options": [],
-            "id": 9
-          },
-          {
-            "question": "War Ihr Kind schon einmal durch Mitarbeitende gefährdet?",
-            "step": "protection",
-            "qtype": "q2",
-            "options": [],
-            "id": 10
-          },
-          {
-            "question": " Können Sie mit Ihrem Kind zu einem Arzt oder einer Ärztin gehen, wenn es ihm körperlich nicht gut geht?",
-            "step": "health",
-            "qtype": "q2",
-            "options": [],
-            "id": 11
-          },
-          {
-            "question": "Bekommen Sie professionelle Hilfe, wenn es ihrem Kind psychisch nicht gut geht?",
-            "step": "health",
-            "qtype": "q2",
-            "options": [],
-            "id": 12
-          },
-          {
-            "question": "Wie schnell wurde ihr Kind bei einem dringenden gesundheitlichen Problem behandelt? Innerhalb (von)…",
-            "step": "health",
-            "qtype": "q1",
-            "options": [
-              {
-                "text": "Gab (bisher) kein dringendes gesundheitliches Problem",
-                "id": 1
-              },
-              {
-                "text": "Kann / Möchte ich nicht beurteilen",
-                "id": 2
-              },
-              {
-                "text": "2 Wochen oder länger",
-                "id": 3
-              },
-              {
-                "text": "1-2 Wochen",
-                "id": 4
-              },
-              {
-                "text": "1 Woche",
-                "id": 5
-              },
-              {
-                "text": "2-3 Tagen",
-                "id": 6
-              },
-              {
-                "text": "eines Tages",
-                "id": 7
-              }
-            ],
-            "id": 13
-          },
-          {
-            "question": "Gibt es bei Arztbesuchen eine erwachsene Person, die für Sie übersetzt?",
-            "step": "health",
-            "qtype": "q3",
-            "options": [],
-            "id": 14
-          },
-          {
-            "question": "Wie bewerten Sie die medizinische Versorgung für Schwangere?",
-            "step": "health",
-            "qtype": "q5",
-            "options": [],
-            "id": 15
-          },
-          {
-            "question": "Werden Sie und andere Bewohner/ Bewohnerinnen ausreichend vor Ansteckung geschützt?",
-            "step": "health",
-            "qtype": "q2",
-            "options": [],
-            "id": 16
-          },
-          {
-            "question": "Wie häufig gab es in der Unterkunft seit Ihrer Ankunft gesundheitliche Probleme mit Schädlingen (z.B. Läusen, Bettwanzen, Krätze)?",
-            "step": "health",
-            "qtype": "q1",
-            "options": [
-              {
-                "text": "Keine Antwort",
-                "id": 0
-              },
-              {
-                "text": "Immer",
-                "id": 1
-              },
-              {
-                "text": "Mehrmahls",
-                "id": 2
-              },
-              {
-                "text": "Einmal",
-                "id": 3
-              },
-              {
-                "text": "Nie",
-                "id": 4
-              }
-            ],
-            "id": 17
-          },
-          {
-            "question": "Können Sie in der Unterkunft selbst kochen? ",
-            "step": "health",
-            "qtype": "q3",
-            "options": [],
-            "id": 18
-          },
-          {
-            "question": "Können Sie in der Unterkunft spezielles Essen und Trinken für Ihr Baby oder Kleinkind selbst zubereiten?",
-            "step": "health",
-            "qtype": "q3",
-            "options": [],
-            "id": 19
-          },
-          {
-            "question": "Besucht Ihr Kind eine Schule oder einen Kindergarten außerhalb der Unterkunft?",
-            "step": "education",
-            "qtype": "q3",
-            "options": [],
-            "id": 20
-          },
-          {
-            "question": "Besucht Ihr Kind eine Schule oder einen Kindergarten in der Unterkunft?",
-            "step": "education",
-            "qtype": "q3",
-            "options": [],
-            "id": 21
-          },
-          {
-            "question": "Gibt es in der Unterkunft stabiles Internet (z.B. WLAN), das Sie nutzen können?",
-            "step": "education",
-            "qtype": "q3",
-            "options": [],
-            "id": 22
-          },
-          {
-            "question": "Ist das Internet kostenlos? ",
-            "step": "education",
-            "conditional": ["22-yes"],
-            "qtype": "q2",
-            "options": [],
-            "id": 23
-          },
-          {
-            "question": "Gibt es in der Unterkunft Computer oder Tablets, die Sie nutzen können?",
-            "step": "education",
-            "qtype": "q3",
-            "options": [],
-            "id": 24
-          },
-          {
-            "question": "Ist die Nutzung kostenlos? ",
-            "step": "education",
-            "qtype": "q2",
-            "conditional": ["24-yes"],
-            "options": [],
-            "id": 25
-          },
-          {
-            "question": "Wie stark berücksichtigen die Mitarbeitenden die Meinung Ihres Kindes?",
-            "step": "inclusion",
-            "qtype": "q5",
-            "options": [],
-            "id": 26
-          },
-          {
-            "question": "ibt es in der Unterkunt Mitarbeitende, an die sich Ihr Kind bei Problemen wenden kann?",
-            "step": "inclusion",
-            "qtype": "q3",
-            "options": [],
-            "id": 27
-          },
-          {
-            "question": "Gibt es in der Unterkunft Feedback-Möglichkeiten (z.B. Briefkasten) für Kinder?",
-            "step": "inclusion",
-            "qtype": "q3",
-            "options": [],
-            "id": 28
-          },
-          {
-            "question": "Können Sie Ihr privates Zimmer in der Unterkunft abschließen?",
-            "step": "accomodation",
-            "qtype": "q3",
-            "options": [],
-            "id": 29
-          },
-          {
-            "question": "Sind die Toiletten abschließbar?",
-            "step": "accomodation",
-            "qtype": "q3",
-            "options": [],
-            "id": 30
-          },
-          {
-            "question": "Sind die Duschen abschließbar? ",
-            "step": "accomodation",
-            "qtype": "q3",
-            "options": [],
-            "id": 31
-          },
-          {
-            "question": "Gibt es Gemeinschaftsräume für Kinder zum Spielen?",
-            "step": "accomodation",
-            "qtype": "q3",
-            "options": [],
-            "id": 32
-          },
-          {
-            "question": "Haben Kinder auch die Möglichkeit, draußen zu Spielen?",
-            "step": "accomodation",
-            "qtype": "q3",
-            "options": [],
-            "id": 33
-          },
-          {
-            "question": "Wie gut kann sich Ihr Kind tagsüber ausruhen, wenn es müde ist?",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 34
-          },
-          {
-            "question": "Wie ruhig ist es nachts in der Unterkunft? ",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 35
-          },
-          {
-            "question": "Wie gut kennen Sie die Hausordnung der Unterkunft? ",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 36
-          },
-          {
-            "question": "Ist die Unterkunft so gestaltet, dass sich Ihr Kind nicht verletzen kann?",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 37
-          },
-          {
-            "question": "Wie sauber ist die Unterkunft? ",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 38
-          },
-          {
-            "question": "Wie bewerten Sie die Mitarbeitenden des Sozialdienst?",
-            "step": "personell",
-            "qtype": "q5",
-            "options": [],
-            "id": 39
-          },
-          {
-            "question": "Wie bewerten Sie die Unterkunftsleitung? ",
-            "step": "personell",
-            "qtype": "q5",
-            "options": [],
-            "id": 40
-          },
-          {
-            "question": "Wie bewerten Sie das Security-Personal? ",
-            "step": "personell",
-            "qtype": "q5",
-            "options": [],
-            "id": 41
-          },
-          {
-            "question": "Wie bewerten Sie die Mitarbeitenden in der Jugendund Kinderbetreuung?",
-            "step": "personell",
-            "qtype": "q5",
-            "options": [],
-            "id": 42
-          },
-          {
-            "question": "Wie gut helfen Ihnen die Mitarbeitenden weiter, wenn Sie Fragen oder Sorgen haben?",
-            "step": "personell",
-            "qtype": "q5",
-            "options": [],
-            "id": 43
-          },
-          {
-            "question": "Eine letzte Frage: Wenn Sie einmal alle Aspekte insgesamt berücksichtigen: Wie bewerten Sie die Situation in der Unterkunft für ihr Kind?",
-            "step": "closing",
-            "qtype": "q5",
-            "options": [],
-            "id": 44
-          }
-        ]
-      },
-      {
-        "lang": "de",
-        "type": "y",
-        "questions": [
-          {
-            "question": "Wie geht es dir, seitdem du hier in dieser Unterkunft lebst?",
-            "step": "warm-up",
-            "qtype": "q5",
-            "options": [],
-            "id": 1
-          },
-          {
-            "question": "Wie sicher fühlst du dich in dem Zimmer, in dem du schläfst?",
-            "qtype": "q5",
-            "step": "protection",
-            "options": [],
-            "id": 2
-          },
-          {
-            "question": "Wie sicher fühlst du dich in den Toilettenräumen? ",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 3
-          },
-          {
-            "question": "Wie sicher fühlst du dich in den Duschräumen? ",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 4
-          },
-          {
-            "question": "Wie sicher fühlst du dich in der Unterkunft tagsüber? ",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 5
-          },
-          {
-            "question": "Wie sicher fühlst du dich in der Unterkunft, wenn es draußen dunkel ist?",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 6
-          },
-          {
-            "question": " Wie sicher fühlst du dich mit den anderen Bewohnern und Bewohnerinnen?",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 7
-          },
-          {
-            "question": "Wie sicher fühlst du dich mit den Personen, die hier arbeiten?",
-            "step": "protection",
-            "qtype": "q5",
-            "options": [],
-            "id": 8
-          },
-          {
-            "question": "Wie geht es dir gesundheitlich? ",
-            "step": "health",
-            "qtype": "q5",
-            "options": [],
-            "id": 9
-          },
-          {
-            "question": "Kümmert sich ein Arzt oder eine Ärztin um mich dich, wenn du krank bist?",
-            "step": "health",
-            "qtype": "q3",
-            "options": [],
-            "id": 10
-          },
-          {
-            "question": "Hast du in der Unterkunft Informationen dazu erhalten, wie man schwanger werden bzw. wie man das vermeiden kann?",
-            "step": "health",
-            "qtype": "q3",
-            "options": [],
-            "id": 11
-          },
-          {
-            "question": "Hast du in der Unterkunft Informationen dazu erhalten, wie man sich vor ansteckenden Krankheiten schützen kann?",
-            "step": "health",
-            "qtype": "q3",
-            "options": [],
-            "id": 12
-          },
-          {
-            "question": "Gibt es in der Unterkunft genug zu essen, so dass du satt wirst?",
-            "step": "health",
-            "qtype": "q3",
-            "options": [],
-            "id": 13
-          },
-          {
-            "question": "Wie gut schmeckt das Essen? ",
-            "step": "health",
-            "qtype": "q5",
-            "options": [],
-            "id": 14
-          },
-          {
-            "question": "Wie viel Hilfe bekommst du von Mitarbeitenden oder Ehrenamtlichen bei den Hausaufgaben?",
-            "step": "education",
-            "qtype": "q5",
-            "options": [],
-            "id": 15
-          },
-          {
-            "question": "Gibt es in der Unterkunft gutes Internet (z.B. WLAN), das du nutzen kannst?",
-            "step": "education",
-            "qtype": "q3",
-            "options": [],
-            "id": 16
-          },
-          {
-            "question": "Gibt es in der Unterkunft Computer oder Tablets, die du nutzen kannst?",
-            "step": "education",
-            "qtype": "q3",
-            "options": [],
-            "id": 17
-          },
-          {
-            "question": "Machen die Mitarbeitenden Ausflüge oder Aktivitäten (zum Beispiel Sport oder Basteln) mit dir?",
-            "step": "inclusion",
-            "qtype": "q3",
-            "options": [],
-            "id": 18
-          },
-          {
-            "question": "1 Wie sehr kannst du deine Freizeit mitbestimmen?",
-            "step": "inclusion",
-            "qtype": "q5",
-            "options": [],
-            "id": 19
-          },
-          {
-            "question": "Wie sehr hören die Mitarbeitenden auf deine Meinung? ",
-            "step": "inclusion",
-            "qtype": "q5",
-            "options": [],
-            "id": 20
-          },
-          {
-            "question": "Wie sehr traust du dich, etwas zu sagen, wenn dir etwas nicht gefällt?",
-            "step": "inclusion",
-            "qtype": "q5",
-            "options": [],
-            "id": 21
-          },
-          {
-            "question": "Gibt es Mitarbeitende, die sich besonders um Kinder und Jugendliche kümmern?",
-            "step": "inclusion",
-            "qtype": "q3",
-            "options": [],
-            "id": 22
-          },
-          {
-            "question": "Wie gerne sprichst du mit diesen Mitarbeitenden (über deine Probleme)?",
-            "step": "inclusion",
-            "qtype": "q5",
-            "conditional": ["22-yes"],
-            "options": [],
-            "id": 23
-          },
-          {
-            "question": "Wie einfach können dich deine Freundinnen und Freunde in der Unterkunft besuchen?",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 24
-          },
-          {
-            "question": "Gibt es einen eigenen Raum für Jugendliche, den du nutzen kannst?",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 25
-          },
-          {
-            "question": "Wie findest du die Freizeitmöglichkeiten in der Unterkunft?",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 26
-          },
-          {
-            "question": "Kannst du dich draußen aufhalten (z.B. Tischtennis, Sportplatz)?",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 27
-          },
-          {
-            "question": "Wie gut kannst du dich tagsüber ausruhen, wenn du müde bist?",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 28
-          },
-          {
-            "question": "Wie ruhig ist es nachts in der Unterkunft? ",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 29
-          },
-          {
-            "question": " Wie sauber ist die Unterkunft? ",
-            "step": "accomodation",
-            "qtype": "q5",
-            "options": [],
-            "id": 30
-          },
-          {
-            "question": "Wie gut helfen dir die Mitarbeitenden des Sozialdienstes, wenn du Hilfe brauchst?",
-            "step": "personell",
-            "qtype": "q5",
-            "options": [],
-            "id": 31
-          },
-          {
-            "question": "Wie gut hilft dir die Unterkunftsleitung, wenn du Hilfe brauchst?",
-            "step": "personell",
-            "qtype": "q5",
-            "options": [],
-            "id": 32
-          },
-          {
-            "question": "Wie gut hilft dir das Security-Personal, wenn du Hilfe brauchst?",
-            "step": "personell",
-            "qtype": "q5",
-            "options": [],
-            "id": 33
-          },
-          {
-            "question": "Wie gut helfen dir die Mitarbeitenden der Kinder- und Jugendbetreuung, wenn du Hilfe brauchst?",
-            "step": "personell",
-            "qtype": "q5",
-            "options": [],
-            "id": 34
-          },
-          {
-            "question": " Wie findest du die Unterkunft gesamt? ",
-            "step": "closing",
-            "qtype": "q5",
-            "options": [],
-            "id": 35
-          }
-        ]
-      }
-    ]
+                  "text": "eines Tages",
+                  "id": 6
+                },
+                {
+                  "text": "2-3 Tagen",
+                  "id": 5
+                },
+               {
+                  "text": "1 Woche",
+                  "id": 4
+                },
+                {
+                  "text": "1-2 Wochen",
+                  "id": 3
+                },
+                {
+                  "text": "2 Wochen oder länger",
+                  "id": 2
+                },
+         
+                {
+                  "text": "Gab (bisher) kein dringendes gesundheitliches Problem",
+                  "id": 1
+                },
+                {
+                  "text": "Kann / Möchte ich nicht beurteilen",
+                  "id": 0
+                }
+              ],
+              "id": 13
+            },
+            {
+              "question": "Gibt es bei Arztbesuchen eine erwachsene Person, die für Sie übersetzt?",
+              "step": "health",
+              "qtype": "q3",
+              "options": [],
+              "id": 14
+            },
+            {
+              "question": "Wie bewerten Sie die medizinische Versorgung für Schwangere?",
+              "step": "health",
+              "qtype": "q5",
+              "options": [],
+              "id": 15
+            },
+            {
+              "question": "Werden Sie und andere Bewohner/ Bewohnerinnen ausreichend vor Ansteckung geschützt?",
+              "step": "health",
+              "qtype": "q2",
+              "options": [],
+              "id": 16
+            },
+            {
+              "question": "Wie häufig gab es in der Unterkunft seit Ihrer Ankunft gesundheitliche Probleme mit Schädlingen (z.B. Läusen, Bettwanzen, Krätze)?",
+              "step": "health",
+              "options": [
+                {
+                  "text": "Immer",
+                  "id": 1
+                },
+                {
+                  "text": "Mehrmahls",
+                  "id": 2
+                },
+                {
+                  "text": "Einmal",
+                  "id": 3
+                },
+                {
+                  "text": "Nie",
+                  "id": 4
+                },
+                {
+                  "text": "Keine Antwort",
+                  "id": 0
+                }
+              ],
+              "id": 17
+            },
+            {
+              "question": "Können Sie in der Unterkunft selbst kochen?",
+              "step": "health",
+              "qtype": "q3",
+              "options": [],
+              "id": 18
+            },
+            {
+              "question": "Können Sie in der Unterkunft spezielles Essen und Trinken für Ihr Baby oder Kleinkind selbst zubereiten?",
+              "step": "health",
+              "qtype": "q3",
+              "options": [],
+              "id": 19
+            },
+            {
+              "question": "Besucht Ihr Kind eine Schule oder einen Kindergarten außerhalb der Unterkunft?",
+              "step": "education",
+              "qtype": "q3",
+              "options": [],
+              "id": 20
+            },
+            {
+              "question": "Besucht Ihr Kind eine Schule oder einen Kindergarten in der Unterkunft?",
+              "step": "education",
+              "qtype": "q3",
+              "conditional": ["20-no"],
+              "options": [],
+              "id": 21
+            },
+            {
+              "question": "Gibt es in der Unterkunft stabiles Internet (z.B. WLAN), das Sie nutzen können?",
+              "step": "education",
+              "qtype": "q3",
+              "options": [],
+              "id": 22
+            },
+            {
+              "question": "Ist das Internet kostenlos? ",
+              "step": "education",
+              "conditional": ["22-yes"],
+              "qtype": "q2",
+              "options": [],
+              "id": 23
+            },
+            {
+              "question": "Gibt es in der Unterkunft Computer oder Tablets, die Sie nutzen können?",
+              "step": "education",
+              "qtype": "q3",
+              "options": [],
+              "id": 24
+            },
+            {
+              "question": "Ist die Nutzung kostenlos? ",
+              "step": "education",
+              "qtype": "q2",
+              "conditional": ["24-yes"],
+              "options": [],
+              "id": 25
+            },
+            {
+              "question": "Wie stark berücksichtigen die Mitarbeitenden die Meinung Ihres Kindes?",
+              "step": "inclusion",
+              "qtype": "q5",
+              "options": [],
+              "id": 26
+            },
+            {
+              "question": "ibt es in der Unterkunt Mitarbeitende, an die sich Ihr Kind bei Problemen wenden kann?",
+              "step": "inclusion",
+              "qtype": "q3",
+              "options": [],
+              "id": 27
+            },
+            {
+              "question": "Gibt es in der Unterkunft Feedback-Möglichkeiten (z.B. Briefkasten) für Kinder?",
+              "step": "inclusion",
+              "qtype": "q3",
+              "options": [],
+              "id": 28
+            },
+            {
+              "question": "Können Sie Ihr privates Zimmer in der Unterkunft abschließen?",
+              "step": "accomodation",
+              "qtype": "q3",
+              "options": [],
+              "id": 29
+            },
+            {
+              "question": "Sind die Toiletten abschließbar?",
+              "step": "accomodation",
+              "qtype": "q3",
+              "options": [],
+              "id": 30
+            },
+            {
+              "question": "Sind die Duschen abschließbar? ",
+              "step": "accomodation",
+              "qtype": "q3",
+              "options": [],
+              "id": 31
+            },
+            {
+              "question": "Gibt es Gemeinschaftsräume für Kinder zum Spielen?",
+              "step": "accomodation",
+              "qtype": "q3",
+              "options": [],
+              "id": 32
+            },
+            {
+              "question": "Haben Kinder auch die Möglichkeit, draußen zu Spielen?",
+              "step": "accomodation",
+              "qtype": "q3",
+              "options": [],
+              "id": 33
+            },
+            {
+              "question": "Wie gut kann sich Ihr Kind tagsüber ausruhen, wenn es müde ist?",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 34
+            },
+            {
+              "question": "Wie ruhig ist es nachts in der Unterkunft? ",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 35
+            },
+            {
+              "question": "Wie gut kennen Sie die Hausordnung der Unterkunft? ",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 36
+            },
+            {
+              "question": "Ist die Unterkunft so gestaltet, dass sich Ihr Kind nicht verletzen kann?",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 37
+            },
+            {
+              "question": "Wie sauber ist die Unterkunft? ",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 38
+            },
+            {
+              "question": "Wie bewerten Sie die Mitarbeitenden des Sozialdienst?",
+              "step": "personell",
+              "qtype": "q5",
+              "options": [],
+              "id": 39
+            },
+            {
+              "question": "Wie bewerten Sie die Unterkunftsleitung? ",
+              "step": "personell",
+              "qtype": "q5",
+              "options": [],
+              "id": 40
+            },
+            {
+              "question": "Wie bewerten Sie das Security-Personal? ",
+              "step": "personell",
+              "qtype": "q5",
+              "options": [],
+              "id": 41
+            },
+            {
+              "question": "Wie bewerten Sie die Mitarbeitenden in der Jugendund Kinderbetreuung?",
+              "step": "personell",
+              "qtype": "q5",
+              "options": [],
+              "id": 42
+            },
+            {
+              "question": "Wie gut helfen Ihnen die Mitarbeitenden weiter, wenn Sie Fragen oder Sorgen haben?",
+              "step": "personell",
+              "qtype": "q5",
+              "options": [],
+              "id": 43
+            },
+            {
+              "question": "Eine letzte Frage: Wenn Sie einmal alle Aspekte insgesamt berücksichtigen: Wie bewerten Sie die Situation in der Unterkunft für ihr Kind?",
+              "step": "closing",
+              "qtype": "q5",
+              "options": [],
+              "id": 44
+            }
+          ]
+        },
+        {
+          "lang": "de",
+          "type": "y",
+          "questions": [
+            {
+              "question": "Wie geht es dir, seitdem du hier in dieser Unterkunft lebst?",
+              "step": "warm-up",
+              "qtype": "q5",
+              "options": [],
+              "id": 1
+            },
+            {
+              "question": "Wie sicher fühlst du dich in dem Zimmer, in dem du schläfst?",
+              "qtype": "q5",
+              "step": "protection",
+              "options": [],
+              "id": 2
+            },
+            {
+              "question": "Wie sicher fühlst du dich in den Toilettenräumen? ",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 3
+            },
+            {
+              "question": "Wie sicher fühlst du dich in den Duschräumen? ",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 4
+            },
+            {
+              "question": "Wie sicher fühlst du dich in der Unterkunft tagsüber? ",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 5
+            },
+            {
+              "question": "Wie sicher fühlst du dich in der Unterkunft, wenn es draußen dunkel ist?",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 6
+            },
+            {
+              "question": "Wie sicher fühlst du dich mit den anderen Bewohnern und Bewohnerinnen?",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 7
+            },
+            {
+              "question": "Wie sicher fühlst du dich mit den Personen, die hier arbeiten?",
+              "step": "protection",
+              "qtype": "q5",
+              "options": [],
+              "id": 8
+            },
+            {
+              "question": "Wie geht es dir gesundheitlich? ",
+              "step": "health",
+              "qtype": "q5",
+              "options": [],
+              "id": 9
+            },
+            {
+              "question": "Kümmert sich ein Arzt oder eine Ärztin um mich dich, wenn du krank bist?",
+              "step": "health",
+              "qtype": "q3",
+              "options": [],
+              "id": 10
+            },
+            {
+              "question": "Hast du in der Unterkunft Informationen dazu erhalten, wie man schwanger werden bzw. wie man das vermeiden kann?",
+              "step": "health",
+              "qtype": "q3",
+              "options": [],
+              "id": 11
+            },
+            {
+              "question": "Hast du in der Unterkunft Informationen dazu erhalten, wie man sich vor ansteckenden Krankheiten schützen kann?",
+              "step": "health",
+              "qtype": "q3",
+              "options": [],
+              "id": 12
+            },
+            {
+              "question": "Gibt es in der Unterkunft genug zu essen, so dass du satt wirst?",
+              "step": "health",
+              "qtype": "q3",
+              "options": [],
+              "id": 13
+            },
+            {
+              "question": "Wie gut schmeckt das Essen? ",
+              "step": "health",
+              "qtype": "q5",
+              "options": [],
+              "id": 14
+            },
+            {
+              "question": "Wie viel Hilfe bekommst du von Mitarbeitenden oder Ehrenamtlichen bei den Hausaufgaben?",
+              "step": "education",
+              "qtype": "q5",
+              "options": [],
+              "id": 15
+            },
+            {
+              "question": "Gibt es in der Unterkunft gutes Internet (z.B. WLAN), das du nutzen kannst?",
+              "step": "education",
+              "qtype": "q3",
+              "options": [],
+              "id": 16
+            },
+            {
+              "question": "Gibt es in der Unterkunft Computer oder Tablets, die du nutzen kannst?",
+              "step": "education",
+              "qtype": "q3",
+              "options": [],
+              "id": 17
+            },
+            {
+              "question": "Machen die Mitarbeitenden Ausflüge oder Aktivitäten (zum Beispiel Sport oder Basteln) mit dir?",
+              "step": "inclusion",
+              "qtype": "q3",
+              "options": [],
+              "id": 18
+            },
+            {
+              "question": "Wie sehr kannst du deine Freizeit mitbestimmen?",
+              "step": "inclusion",
+              "qtype": "q5",
+              "options": [],
+              "id": 19
+            },
+            {
+              "question": "Wie sehr hören die Mitarbeitenden auf deine Meinung?",
+              "step": "inclusion",
+              "qtype": "q5",
+              "options": [],
+              "id": 20
+            },
+            {
+              "question": "Wie sehr traust du dich, etwas zu sagen, wenn dir etwas nicht gefällt?",
+              "step": "inclusion",
+              "qtype": "q5",
+              "options": [],
+              "id": 21
+            },
+            {
+              "question": "Gibt es Mitarbeitende, die sich besonders um Kinder und Jugendliche kümmern?",
+              "step": "inclusion",
+              "qtype": "q3",
+              "options": [],
+              "id": 22
+            },
+            {
+              "question": "Wie gerne sprichst du mit diesen Mitarbeitenden (über deine Probleme)?",
+              "step": "inclusion",
+              "qtype": "q5",
+              "conditional": ["22-yes"],
+              "options": [],
+              "id": 23
+            },
+            {
+              "question": "Wie einfach können dich deine Freundinnen und Freunde in der Unterkunft besuchen?",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 24
+            },
+            {
+              "question": "Gibt es einen eigenen Raum für Jugendliche, den du nutzen kannst?",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 25
+            },
+            {
+              "question": "Wie findest du die Freizeitmöglichkeiten in der Unterkunft?",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 26
+            },
+            {
+              "question": "Kannst du dich draußen aufhalten (z.B. Tischtennis, Sportplatz)?",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 27
+            },
+            {
+              "question": "Wie gut kannst du dich tagsüber ausruhen, wenn du müde bist?",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 28
+            },
+            {
+              "question": "Wie ruhig ist es nachts in der Unterkunft? ",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 29
+            },
+            {
+              "question": "Wie sauber ist die Unterkunft? ",
+              "step": "accomodation",
+              "qtype": "q5",
+              "options": [],
+              "id": 30
+            },
+            {
+              "question": "Wie gut helfen dir die Mitarbeitenden des Sozialdienstes, wenn du Hilfe brauchst?",
+              "step": "personell",
+              "qtype": "q5",
+              "options": [],
+              "id": 31
+            },
+            {
+              "question": "Wie gut hilft dir die Unterkunftsleitung, wenn du Hilfe brauchst?",
+              "step": "personell",
+              "qtype": "q5",
+              "options": [],
+              "id": 32
+            },
+            {
+              "question": "Wie gut hilft dir das Security-Personal, wenn du Hilfe brauchst?",
+              "step": "personell",
+              "qtype": "q5",
+              "options": [],
+              "id": 33
+            },
+            {
+              "question": "Wie gut helfen dir die Mitarbeitenden der Kinder- und Jugendbetreuung, wenn du Hilfe brauchst?",
+              "step": "personell",
+              "qtype": "q5",
+              "options": [],
+              "id": 34
+            },
+            {
+              "question": "Wie findest du die Unterkunft gesamt?",
+              "step": "closing",
+              "qtype": "q5",
+              "options": [],
+              "id": 35
+            }
+          ]
+        }
+      ],
   }
