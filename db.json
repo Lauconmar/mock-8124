@@ -402,27 +402,27 @@
               "options": [
                {
                   "text": "eines Tages",
-                  "id": 5
+                  "id": 6
                 },
                 {
                   "text": "2-3 Tagen",
-                  "id": 4
+                  "id": 5
                 },
                 {
                   "text": "1 Woche",
-                  "id": 3
+                  "id": 4
                 },
                 {
                   "text": "1-2 Wochen",
-                  "id": 2
+                  "id": 3
                 },
                 {
                   "text": "2 Wochen oder länger",
-                  "id": 1
+                  "id": 2
                 },
                 {
                   "text": "Gab (bisher) kein dringendes gesundheitliches Problem",
-                  "id": 0
+                  "id": 1
                 },
           
                 {
@@ -623,7 +623,7 @@
               "options": [
            
                 {
-                  "text": "von der Unterkunft entfernt? weniger als 1 km",
+                  "text": "weniger als 1 km",
                   "id": 1
                 },
                 {
@@ -1238,7 +1238,7 @@
               "id": 26
             },
             {
-              "question": "ibt es in der Unterkunt Mitarbeitende, an die sich Ihr Kind bei Problemen wenden kann?",
+              "question": "Gibt es in der Unterkunft Mitarbeitende, an die sich Ihr Kind bei Problemen wenden kann?",
               "step": "inclusion",
               "qtype": "q3",
               "options": [],
