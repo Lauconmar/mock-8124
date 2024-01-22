@@ -8,7 +8,7 @@
           "screenerAge": {
             "label": "Ich bin",
             "labelOptions": {
-              "adult": "Elternteil/Sorgeberechtigt",
+              "adult": "Elternteil / sorgeberechtigt",
               "youth": "12 - 18 Jahre",
               "child": "7 - 11 Jahre"
             }
