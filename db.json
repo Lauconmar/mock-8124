@@ -1146,6 +1146,7 @@
             {
               "question": "Wie häufig gab es in der Unterkunft seit Ihrer Ankunft gesundheitliche Probleme mit Schädlingen (z.B. Läusen, Bettwanzen, Krätze)?",
               "step": "health",
+              "qtype": "q1",
               "options": [
                 {
                   "text": "Immer",
