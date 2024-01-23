@@ -709,7 +709,7 @@
               "id": 45
             },
             {
-              "question": "Sind die Schlafräume der Bewohner*innen nachts verdunkelbar?",
+              "question": "Wie gut sind die Schlafräume der Bewohner*innen nachts verdunkelbar",
               "step": "accomodation",
               "qtype": "q5",
               "options": [],
@@ -1074,7 +1074,7 @@
             {
               "question": " Können Sie mit Ihrem Kind zu einem Arzt oder einer Ärztin gehen, wenn es ihm körperlich nicht gut geht?",
               "step": "health",
-              "qtype": "q2",
+              "qtype": "q3",
               "options": [],
               "id": 11
             },
@@ -1153,7 +1153,7 @@
                   "id": 1
                 },
                 {
-                  "text": "Mehrmahls",
+                  "text": "Mehrmals",
                   "id": 2
                 },
                 {
@@ -1188,7 +1188,7 @@
             {
               "question": "Besucht Ihr Kind eine Schule oder einen Kindergarten außerhalb der Unterkunft?",
               "step": "education",
-              "qtype": "q3",
+              "qtype": "q2",
               "options": [],
               "id": 20
             },
@@ -1541,7 +1541,7 @@
             {
               "question": "Gibt es einen eigenen Raum für Jugendliche, den du nutzen kannst?",
               "step": "accomodation",
-              "qtype": "q5",
+              "qtype": "q3",
               "options": [],
               "id": 25
             },
