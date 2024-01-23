@@ -1081,7 +1081,7 @@
             {
               "question": "Bekommen Sie professionelle Hilfe, wenn es ihrem Kind psychisch nicht gut geht?",
               "step": "health",
-              "qtype": "q2",
+              "qtype": "q3",
               "options": [],
               "id": 12
             },
@@ -1555,7 +1555,7 @@
             {
               "question": "Kannst du dich draußen aufhalten (z.B. Tischtennis, Sportplatz)?",
               "step": "accomodation",
-              "qtype": "q5",
+              "qtype": "q3",
               "options": [],
               "id": 27
             },
